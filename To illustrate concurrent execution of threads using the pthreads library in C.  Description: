@@ -1,0 +1,10 @@
+#include <stdio.h>
+#include <pthread.h> 
+void* task1(void* arg) {
+for(int i=0;i<5;i++) printf("Task 1 running\n");
+return NULL; 
+} 
+void* task2(void* arg) {
+for(int i=0;i<5;i++) printf("Task 2 running\n");
+	return NULL; 
+} 
